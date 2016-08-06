@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动窗口</title>
+    <script type="text/javascript" src="jslib/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="jslib/jquery-win.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/win.css"/>
+</head>
+<body>
+    <a onclick="showwin()" href="#">显示浮动窗口</a>
+    <!--使用css来改变div的状态-->
+    <div id="win">
+        <div id="title">这是标题栏<span id="close" onclick="hide()">X</span></div>
+        <div id="content">我是一个窗口</div>
+    </div>
+
+</body>
+</html>

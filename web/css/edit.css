@@ -1,0 +1,12 @@
+/*标签 选择器*/
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
